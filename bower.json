@@ -1,0 +1,20 @@
+{
+  "name": "slick3",
+  "homepage": "https://github.com/Ronald33/container-lamp",
+  "authors": [
+    "ronald33 <ronald.dev1@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-animation": "git@github.com:marvinhuebner/slick-animation.git#^0.3.3"
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="hero-slider.css">
+</head>
+<body>
+    <div class="hero-slider">
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(http://placeimg.com/640/360/any);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Crafting Digital <br>
+                            Experience</h1>
+                        <p data-duration-in=".3" data-animation-in="rotateIn" data-delay-in=".5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, <br> veritatis tempore nostrum id
+                            officia quaerat eum corrupti, <br> ipsa aliquam velit.</p>
+                        <a data-duration-in=".3" data-animation-in="rotateIn" data-delay-in=".8" class="btn btn-main" href="service.html">Explore Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(https://placebear.com/640/360);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">We Combine Design <br> and
+                            Creativity</h1>
+                        <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">Create just what you need
+                            for your Perfect Website. Choose from a wide range
+                            <br> of Elements & simply put them on our Canvas.</p>
+                        <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8"  class="btn btn-main" href="service.html">Explore Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
+    <script type="text/javascript" src="bower_components/slick-animation/slick-animation.min.js"></script>
+    <script type="text/javascript">
+        $('.hero-slider').slick({
+            autoplay: true,
+            infinite: true,
+            arrows: true,
+            prevArrow: '<button type=\'button\' class=\'prevArrow\'></button>',
+            nextArrow: '<button type=\'button\' class=\'nextArrow\'></button>',
+            // dots: true,
+            autoplaySpeed: 7000,
+            // pauseOnFocus: false,
+            // pauseOnHover: false
+        });
+        $('.hero-slider').slickAnimation();
+    </script>
+</body>
+</html>
