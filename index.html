@@ -16,33 +16,25 @@
     <!-- slick-animation -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" />
     <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css" />
-    <!-- <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css" /> -->
     <!-- End slick-animation -->
 
     <link rel="stylesheet" href="slick-theme.css" />
 
     <style>
-        .slider-item-container
-        {
-            /*border: 1px solid white;
-            border-radius: 12px;
-            box-shadow: 2px 2px 6px black;
-            background-color: rgba(222, 222, 222, .3);*/
-        }
         .slider-item-container .btn { margin: 0; }
     </style>
 </head>
 <body>
     <div class="slick-slider">
-        <div class="slider-item slider-fullpage" style="background-image: url(http://placeimg.com/640/360/any);">
-            <div class="container">
+        <div class="slider-item slider-fullpage d-flex justify-content-center align-items-center" style="background-image: url(http://placeimg.com/640/360/any);">
+            <div class="container" data-duration-in=".8" data-animation-in="fadeInUp" data-delay-in=".1">
                 <div class="row">
                     <div class="col-md-6 slider-item-container">
-                        <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1" class="white-text h1-responsive">
+                        <h2 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1" class="white-text h1-responsive">
                             Titulo 1
-                        </h1>
+                        </h2>
                         <hr class="bg-light">
-                        <h4 data-duration-in=".3" data-animation-in="rotateIn" data-delay-in=".5" class="white-text h4-responsive">
+                        <h4 data-duration-in=".3" data-animation-in="rotateIn" data-delay-in=".5" class="white-text h4-responsive d-none d-md-block">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis at recusandae voluptatibus odio reiciendis ipsum. Et iste, est perspiciatis quibusdam nesciunt quod numquam quis alias blanditiis, earum necessitatibus, ad ab!
                         </h4>
                         <a data-duration-in=".3" data-animation-in="rotateIn" data-delay-in=".8" class="btn btn-success" href="service.html">
@@ -52,32 +44,41 @@
                 </div>
             </div>
         </div>
-        <!--<div class="slider-item slider-fullpage" style="background-image: url(https://placebear.com/640/360);">
-            <div class="slider-item-container">
-                <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">
-                    Titulo 2
-                </h1>
-                <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">
-                    Descripción 2
-                </p>
-                <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8"  class="btn btn-success" href="service.html">
-                    Link 2
-                </a>
+        <div class="slider-item slider-fullpage d-flex justify-content-center align-items-center" style="background-image: url(https://placebear.com/640/360);">
+            <div class="container" data-duration-in=".8" data-animation-in="fadeInUp" data-delay-in=".1">
+                <div class="row">
+                    <div class="col-md-6 slider-item-container">
+                        <h2 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1" class="white-text h1-responsive">
+                            Titulo 2
+                        </h2>
+                        <h4 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5" class="white-text h4-responsive d-none d-md-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quasi quidem, commodi nostrum sint praesentium dolores voluptatibus nesciunt aut odit blanditiis natus, ipsa laborum asperiores perspiciatis aliquid non modi? Maxime.
+                        </h4>
+                        <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8"  class="btn btn-success" href="service.html">
+                            Link 2
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="slider-item slider-fullpage d-flex justify-content-center align-items-center" style="background-image: url(https://placebear.com/640/360);">
+            <div class="container" data-duration-in=".8" data-animation-in="fadeInUp" data-delay-in=".1">
+                <div class="row">
+                    <div class="col-md-6 slider-item-container">
+                        <h2 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1" class="white-text h1-responsive">
+                            Titulo 2
+                        </h2>
+                        <h4 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5" class="white-text h4-responsive d-none d-md-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet adipisci minima ut saepe ipsam autem blanditiis recusandae explicabo, maiores neque facilis, quibusdam beatae qui dolores obcaecati ea, sunt dolore!
+                        </h4>
+                        <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8"  class="btn btn-success" href="service.html">
+                            Link 2
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="slider-item slider-fullpage" style="background-image: url(https://placebear.com/640/360);">
-            <div class="slider-item-container">
-                <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">
-                    Titulo 2
-                </h1>
-                <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">
-                    Descripción 2
-                </p>
-                <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8"  class="btn btn-success" href="service.html">
-                    Link 2
-                </a>
-            </div>
-        </div>-->
     </div>
 
     <!-- mdbootstrap -->

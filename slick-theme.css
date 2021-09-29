@@ -11,8 +11,8 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 9;
-    height: 70px;
-    width: 70px;
+    height: 55px;
+    width: 55px;
     background: #28ABE3;
     color: #fff;
     border: 0;
@@ -30,7 +30,7 @@
 .slick-prev i { margin-left: -7px; }
 .slick-next i { margin-right: -7px; }
 
-.slick-arrow { font-size: 48px; }
+.slick-arrow { font-size: 33px; }
 
 /* Dots */
 ul.slick-dots
